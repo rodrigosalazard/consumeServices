@@ -1,0 +1,42 @@
+{
+  "user":[
+    {"id":1,"name":"Rodrigo","email":"salazargw@ciencias.unam.mx","image":"https://www.wildlifeonline.me.uk/assets/ugc/images/red_fox_portrait.jpg"},
+    {"id":3,"name":"Adam","email":"salazargw@ciencias.unam.mx","image":"https://www.wildlifeonline.me.uk/assets/ugc/images/red_fox_portrait.jpg"},
+    {"id":2,"name":"John","email":"salazargw@ciencias.unam.mx","image":"https://www.wildlifeonline.me.uk/assets/ugc/images/red_fox_portrait.jpg"}
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "¿Porque adoptar animales?",
+      "body":"Pienso que es importante porque...",
+      "userId":1
+    },
+    {
+      "id": 2,
+      "title": "¿Qué piensas del calentamiento global?",
+      "body":"Deberiamos de hacer algo al respecto...",
+      "userId":2
+    },
+    {
+      "id": 3,
+      "title": "¿Como crear tu propia empresa?",
+      "body":"antes de empezar debería de leer sobre...",
+      "userId":3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
